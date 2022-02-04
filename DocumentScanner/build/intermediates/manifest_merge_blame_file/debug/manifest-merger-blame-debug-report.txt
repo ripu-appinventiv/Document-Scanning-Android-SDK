@@ -1,0 +1,67 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.zynksoftware.documentscanner"
+5    android:versionCode="5"
+6    android:versionName="1.0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml
+11
+12    <uses-feature
+12-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:5:5-6:35
+13        android:name="android.hardware.camera2"
+13-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:5:19-58
+14        android:required="false" />
+14-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:6:9-33
+15
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:7:5-64
+16-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:7:22-62
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:8:5-79
+17-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:8:22-77
+18
+19    <application
+19-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:10:5-31:19
+20        android:hardwareAccelerated="true"
+20-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:13:9-43
+21        android:largeHeap="true"
+21-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:12:9-33
+22        android:requestLegacyExternalStorage="true"
+22-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:11:9-52
+23        tools:ignore="UnusedAttribute" >
+23-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:14:9-39
+24        <activity
+24-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:16:9-19:52
+25            android:name="com.zynksoftware.documentscanner.ui.scan.InternalScanActivity"
+25-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:17:13-57
+26            android:screenOrientation="portrait"
+26-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:18:13-49
+27            android:theme="@style/ActivityTheme" />
+27-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:19:13-49
+28        <activity
+28-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:21:9-29:20
+29            android:name="com.zynksoftware.documentscanner.ScanActivity"
+29-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:22:13-41
+30            android:screenOrientation="portrait"
+30-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:23:13-49
+31            android:theme="@style/ActivityTheme" >
+31-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:24:13-49
+32            <intent-filter>
+32-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:25:13-28:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:26:17-69
+33-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:26:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:27:17-77
+35-->/home/appinventiv/AppInventivWorkSpace/Document-Scanning-Android-SDK/DocumentScanner/src/main/AndroidManifest.xml:27:27-74
+36            </intent-filter>
+37        </activity>
+38    </application>
+39
+40</manifest>
